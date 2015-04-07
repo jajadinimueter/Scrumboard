@@ -1,0 +1,641 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"Interne",
+				"Internet-Kommunikation"
+			],
+			[
+				"Projekt",
+				"Projektmanagement"
+			],
+			[
+				"sli",
+				"slideDown"
+			],
+			[
+				"slide",
+				"slideUp"
+			],
+			[
+				"tas",
+				"taskList"
+			],
+			[
+				"list",
+				"listElement"
+			],
+			[
+				"li",
+				"listElement"
+			],
+			[
+				"che",
+				"checked"
+			],
+			[
+				"chek",
+				"checkBox"
+			],
+			[
+				"check",
+				"checkBox"
+			],
+			[
+				"inpu",
+				"input2"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Murisier",
+				"hacker-mit-manipulierter-scada-industriesteuerung-angelockt-a-914836"
+			],
+			[
+				"RDF",
+				"Reely-IR-3-Kanal-Thunder-RC-Doppelrotor-Hubschrauber-RtF"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"weitere",
+				"von-werbefrei-bis-dezentral-5-gescheiterte-visionen-fuer-das-web-die-trotzdem-zukunft-haben"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 659,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/index.jade",
+			"settings":
+			{
+				"buffer_size": 983,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/stylesheets/style.css",
+			"settings":
+			{
+				"buffer_size": 502,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/Marked.sublime-build",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bernhardfuchs/Git/Scrumboard/routes/index.js",
+		"/Users/bernhardfuchs/Git/Scrumboard/routes/users.js",
+		"/Users/bernhardfuchs/Git/Scrumboard/views/layout.jade",
+		"/Users/bernhardfuchs/Git/Scrumboard/spec/SpecRunner.html",
+		"/Users/bernhardfuchs/Git/Scrumboard/spec/spec/Scrumboard.js",
+		"/Users/bernhardfuchs/Git/Scrumboard/views/error.jade",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/ITIL/ITIL_Notizen.md",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Seminar_Web Security/SM_Web Service.html",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Projekt- und Prozessmanagement/PPM_Notizen.md",
+		"/Users/bernhardfuchs/Dropbox/Nota/Nota.html",
+		"/Users/bernhardfuchs/Desktop/Test.md",
+		"/Users/bernhardfuchs/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/bernhardfuchs/Dropbox/Docs/Semesterarbeit/Semesterarbeit_Notizen.txt",
+		"/Users/bernhardfuchs/Dropbox/Docs/_Austausch/Einkaufsliste/index_Test.html",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/ITIL/2015-05-11/ITIL Test.txt",
+		"/Users/bernhardfuchs/Dropbox/Docs/Semesterarbeit/SA_Kick-off_Präsentation_Links.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/JavaScript_Fischer/E-Mails_Fischer/Jens-Christian Fischer (2015-01-12).txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/JavaScript_Fischer/E-Mails_Fischer/Jens-Christian Fischer (2014-12-08)_1.txt",
+		"/Users/bernhardfuchs/Git/web-engineering2/05_Lay_of_the_land/52_working_with_filesystem/labor/copy2.txt",
+		"/Users/bernhardfuchs/Git/web-engineering2/05_Lay_of_the_land/52_working_with_filesystem/labor/-a",
+		"/Users/bernhardfuchs/Git/web-engineering2/05_Lay_of_the_land/52_working_with_filesystem/labor/hello.txt",
+		"/Users/bernhardfuchs/Git/web-engineering2/05_Lay_of_the_land/52_working_with_filesystem/labor/copy.txt",
+		"/Users/bernhardfuchs/Dropbox/Docs/_Austausch/LT_User behaviors.txt",
+		"/Users/bernhardfuchs/Dropbox/todo/done.txt",
+		"/Users/bernhardfuchs/Dropbox/Docs/_Austausch/Notizen.txt",
+		"/Users/bernhardfuchs/Dropbox/Docs/_Austausch/Notizen_Austausch.txt",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/06_jquery_advanced/src/Demo.js",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/SM_Cloud als Geschäftsmodell/Präsentation/Cloud_Präsentation.txt",
+		"/Users/bernhardfuchs/Git/web-engineering2/04_events_ajax/07_events/labor/src/Task.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/04_events_ajax/09_ajax/labor/src/Task.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/04_events_ajax/09_ajax/labor/src/TaskList.js",
+		"/Users/bernhardfuchs/Dropbox/Docs/Wahlpflichtmodule/Semesterarbeit_Ideen.txt",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/06_jquery_advanced/src/TaskList.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/06_jquery_advanced/src/Task.js",
+		"/Users/bernhardfuchs/Dropbox/Docs/_Austausch/Links_Tandem-Lernen.txt",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/index.html",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/spec/TaskSpec.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/spec/TaskListSpec.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/src/TaskList.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/src/Task.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/snippet.html",
+		"/Users/bernhardfuchs/Git/web-engineering2/03_jquery/src/Demo.js",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/JavaScript_Fischer/CreditCard.js",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/JavaScript_Fischer/CreditCardSpec.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/02_tdd_in_javascript/04_mocks/labor/jasmine-standalone-2/SpecRunner.html",
+		"/Users/bernhardfuchs/Git/web-engineering2/02_tdd_in_javascript/04_mocks/labor/jasmine-standalone-2/spec/EmailSpec.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/02_tdd_in_javascript/04_mocks/labor/jasmine-standalone-2/src/Server.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/02_tdd_in_javascript/04_mocks/labor/jasmine-standalone-2/src/Email.js",
+		"/Users/bernhardfuchs/SWITCHdrive/Shared/web-engineering2/03_jquery/05_jquery/labor/index.html",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/SM_Cloud als Geschäftsmodell/Arbeitsplanung_SM Cloud.prn",
+		"/Users/bernhardfuchs/Git/web-engineering2/01_javascript/02_javascript_advanced/labor/script.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/01_javascript/02_javascript_advanced/labor/index.html",
+		"/Users/bernhardfuchs/Documents/E-Mails/Swica/Swica_Pascal Ryavec (2014-12-16)_2.txt",
+		"/Users/bernhardfuchs/Documents/E-Mails/Swica/Swica_Pascal Ryavec (2014-09-15)_1.txt",
+		"/Users/bernhardfuchs/Git/web-engineering2/02_tdd_in_javascript/04_mocks/labor/jasmine-standalone-2/spec/Email.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/02_tdd_in_javascript/03_tdd/jasmine-standalone-2/SpecRunner.html",
+		"/Users/bernhardfuchs/Git/web-engineering2/02_tdd_in_javascript/03_tdd/jasmine-standalone-2/spec/ApplicationSpec.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/02_tdd_in_javascript/03_tdd/jasmine-standalone-2/src/Application.js",
+		"/Users/bernhardfuchs/Desktop/CreditCard.js",
+		"/Users/bernhardfuchs/Desktop/CreditCardSpec.js",
+		"/Users/bernhardfuchs/Git/web-engineering2/01_javascript/01_javascript/labor/index.html",
+		"/Users/bernhardfuchs/Git/web-engineering2/01_javascript/01_javascript/labor/scripts.js",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/### WTWE-Prüfung",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Allgemeines/Semester- und BA-Arbeit.txt",
+		"/Users/bernhardfuchs/Documents/E-Mails/Swica/Swica_Pascal Ryavec (2014-11-14).txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/SM_Cloud als Geschäftsmodell/Teaser/Teaser_Cloud_Dokumentablage.html",
+		"/Users/bernhardfuchs/OpenJMS/config/openjms.xml",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen/03_W45/A.-G.WebSockets-SSE/G.HTML5ServerEvents/StartJetty.bat",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen/03_W45/A.-G.WebSockets-SSE/_Readme/_Readme.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Projektarbeit/WTWE-Arbeit/WTWE-Arbeit.acn",
+		"/Users/bernhardfuchs/Git/JAX-WS/bin/TimeDateService.wsdl",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Allgemeines/ZHAW-Studium_Notizen.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen/03_W43/ebook_013613517X_Web_Service_Contract_Design_and_Versioning_for_SOA_3&7.txt",
+		"/Applications/MAMP/htdocs/PHP/Skripts/get_request.php",
+		"/Users/bernhardfuchs/Desktop/Re_ nochmals zum Heli.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/SM_Cloud als Geschäftsmodell/Arbeit/content/3-Anbieter.aux",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/SM_Cloud als Geschäftsmodell/Arbeit/content/2-CloudComputing.aux",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/SM_Cloud als Geschäftsmodell/Arbeit/Cloud.log",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/SM_Cloud als Geschäftsmodell/Arbeit/content/1-Einfuehrung.aux",
+		"/Users/bernhardfuchs/EJB/HelloClient.java",
+		"/Users/bernhardfuchs/EJB/HelloBean.java",
+		"/Users/bernhardfuchs/EJB/Hello.java",
+		"/Users/bernhardfuchs/Documents/E-Mails/nu3.ch/nu3.ch (2014-09-09).txt",
+		"/Users/bernhardfuchs/Documents/E-Mails/Juvel-5/Juvel-5 (2014-09-03).txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen_alt/Thema 9_Project Definition/Untertitel.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen_alt/Thema 8_Project Focus/Untertitel.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen_alt/Thema 7_Business Discovery/Untertitel.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen_alt/Thema 6_Foresight Methods/Untertitel.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen_alt/Thema 10_Customer Value & Project Vision/Project Definition/Fotos/Titel.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen_alt/Thema 10_Customer Value & Project Vision/Project Definition/Untertitel.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen_alt/Thema 10_Customer Value & Project Vision/Untertitel.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/### WTWE: Lektüren.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/_WTWE/Unterlagen_alt/Thema 5/Kernkurs.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/SM_Cloud als Geschäftsmodell/### Cloud als Geschäftsmodell",
+		"/Users/bernhardfuchs/Downloads/signature.asc",
+		"/Users/bernhardfuchs/Dropbox/JavaScript/index.html",
+		"/Users/bernhardfuchs/Dropbox/Nota/Familiengeschichte_Fuchs.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Stellen/MESPAS/Bewerbung_MESPAS/To do.txt",
+		"/Users/bernhardfuchs/Dropbox/Nota/Familiengeschichte_Fuchs",
+		"/Users/bernhardfuchs/perl/ueb_io_sort.pl",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/IT Management/BA I ITIL - IT Infrastructure Library/2014-05-13/ITIL-Test_Link.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Wahlpflichtmodule/BA I Datenbanksysteme Oracle/2014-12-05/Beschreibung TX Log Records bei Oracle.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Wahlpflichtmodule/BA I Datenbanksysteme Oracle/2014-11-14_Datenbank Architektur und Administration/Theorie von B+ Bäumen in Wikipedia.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Wahlpflichtmodule/BA I Datenbanksysteme Oracle/2014-11-14_Datenbank Architektur und Administration/Simulation zu B+ Baum.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Wahlpflichtmodule/BA I Datenbanksysteme Oracle/2014-10-24/Oracle-Zertifizierung.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Wahlpflichtmodule/BA I Datenbanksysteme Oracle/2014-10-17/SQL for Analysis in Data Warehouses.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Wahlpflichtmodule/BA I Datenbanksysteme Oracle/2014-09-26/Oracle 11g Dokumentation.txt",
+		"/Users/bernhardfuchs/perl/ueb_io.pl",
+		"/Users/bernhardfuchs/perl/text.txt",
+		"/Users/bernhardfuchs/perl/1_atan2.pl",
+		"/Users/bernhardfuchs/perl/hello_world",
+		"/Users/bernhardfuchs/perl/test.pl",
+		"/Users/bernhardfuchs/perl/helllo_world",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/FS 2012/Numerik/HS 2012/Übungsserien/HS2012_Num1_Serie9/Serie9_Aufg3.m",
+		"/Users/bernhardfuchs/Dropbox/Verschiedenes/Wichtige Links.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Algorithmen und Datenstrukturen/Übungen/Übungsblatt 4/code.txt",
+		"/Users/bernhardfuchs/Downloads/SN.lco.txt",
+		"/Users/bernhardfuchs/Dropbox/Lerngruppe/Digitaltechnik/Falls es Dir etwas bringt_unbearbeitet.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Informatik 4/Aufgaben/Aufgaben 8/Inf4_S8_A4",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Numerik 2/Übungsserien/Übung 9/bernhardfuchs_3Ia_Num2_S9.m",
+		"/Users/bernhardfuchs/Dropbox/todo.txt/todo.cfg",
+		"/Users/bernhardfuchs/Dropbox/todo.txt/todo_completion",
+		"/Users/bernhardfuchs/ruby/depot/app/assets/stylesheets/carts.css.scss",
+		"/Users/bernhardfuchs/ruby/depot/app/views/carts/index.json.jbuilder",
+		"/Users/bernhardfuchs/Downloads/readme.txt",
+		"/Users/bernhardfuchs/Documents/Listen/E-Mail-Adressen.txt",
+		"/Users/bernhardfuchs/Documents/Informatik-Studium/Elektrotechnik/Elektrotechnik.md",
+		"/Users/bernhardfuchs/ruby/depot/app/assets/stylesheets/store.css.scss"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/bernhardfuchs/Git/Scrumboard/routes,/Users/bernhardfuchs/Git/Scrumboard/views",
+			"/Users/bernhardfuchs/Git/Scrumboard",
+			"",
+			" "
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"Express",
+			"pandoc",
+			"Cheat sheet",
+			"\\hrulefill",
+			"\\}$",
+			"}$",
+			"$\\Rightarrow$",
+			"$\\rightarrow$",
+			"compacten",
+			"\\end{compactitem}",
+			"\\textbf{",
+			"\\begin{compactitem}",
+			"\\textbf{",
+			"**",
+			"\\textbf{",
+			"**",
+			"\\textbf{",
+			"\\begin{compactitem}",
+			"\\\\",
+			" \\\\",
+			"\\item",
+			"\\subsection*{",
+			"\\subsubsection*{",
+			"\\section*{",
+			"Simon Lang",
+			"# Software Engineering",
+			"hipster",
+			"bitbucke",
+			"# wahlpflic",
+			"# wahlpl",
+			"# wahlfpl",
+			"schema",
+			"# einkaufsl",
+			"einkaufs",
+			"# einkaufsliste",
+			"Ü",
+			"ö",
+			"ä",
+			"ü",
+			"ö",
+			"ä",
+			"Ü",
+			"Ö",
+			"Ä",
+			"# Web service",
+			"\n",
+			"\\",
+			"\\\\",
+			"\\",
+			"\\subsubsection*{",
+			"\\textbf{",
+			"*:",
+			"\\textbf{",
+			"$\\rightarrow$",
+			"\\textbf{",
+			"$\\rightarrow$",
+			"\\textbf{",
+			"$\\rightarrow$",
+			"\\textbf{",
+			"$\\rightarrow$",
+			"\\section*{",
+			"\\item",
+			"\\end{compactitem",
+			"\\begin{compactitem",
+			"\\subsection*{",
+			"}",
+			"\\}^$",
+			"}",
+			"}^$",
+			" \\\\",
+			"http",
+			"commit",
+			"schema",
+			"atom",
+			"ITIL",
+			"evita",
+			"bücherkar",
+			"ITIL",
+			"# web",
+			"# web En",
+			"schema",
+			"wettsmar",
+			"# S",
+			"Beamer",
+			"1240",
+			"# Präsent",
+			"wettsm",
+			"brodmi",
+			"dublin.zh",
+			"dublin",
+			"# web eng",
+			"# weg",
+			"ryavec",
+			"simon lang",
+			"# sper",
+			"screen",
+			"screens",
+			"screen",
+			"# latex",
+			"console",
+			"jack",
+			"handy",
+			"bächler",
+			"# Natelnu",
+			"liechtath",
+			"packen",
+			"Jens-Christian Fischer",
+			"  ",
+			"# Latex",
+			"# latex",
+			"# late",
+			"XML",
+			"-- S",
+			"# Seitan",
+			"# seitan",
+			"# seit",
+			"helvetia",
+			"Dokumentablage",
+			"Ü",
+			"Ö",
+			"ü",
+			"ä",
+			"ö",
+			"-- A",
+			"# Latex",
+			"# latex",
+			"eich",
+			"blubb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"- - -",
+			"",
+			"&rArr;",
+			"&rarr;",
+			"",
+			"**",
+			"",
+			"*",
+			"## ",
+			"### ",
+			"# ",
+			"* ",
+			"&Uuml;",
+			"&ouml;",
+			"&auml;",
+			"&uuml;",
+			"&ouml;",
+			"&auml;",
+			"&Uuml;",
+			"",
+			"#### ",
+			"&rarr;",
+			"## ",
+			"*",
+			"",
+			"### ",
+			"",
+			"-----------------------------------------------------------------------------------------------------------------------------------",
+			"S",
+			"s",
+			"**",
+			"S",
+			"s",
+			"A",
+			"a",
+			"T",
+			"t",
+			"S",
+			"s",
+			"i",
+			"n",
+			"I",
+			"i",
+			"N",
+			"n",
+			"R",
+			"-",
+			"r",
+			"i",
+			"n",
+			"E",
+			"e",
+			"",
+			"-----------------------------------------------------------------------------------------------------------------------------------",
+			"----------------------------------------------------------------------------------------------------------------------------------- ",
+			"; ",
+			" ",
+			"; ",
+			";",
+			"; ",
+			" ",
+			"",
+			"'",
+			"%",
+			";",
+			" "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								604,
+								604
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/index.jade",
+					"settings":
+					{
+						"buffer_size": 983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								284,
+								284
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 53.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "public/stylesheets/style.css",
+					"settings":
+					{
+						"buffer_size": 502,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								496
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/bernhardfuchs/Dropbox/Docs/_Austausch/Einkaufsliste/Einkaufsliste.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true
+}

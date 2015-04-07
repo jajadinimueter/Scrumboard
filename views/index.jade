@@ -2,4 +2,40 @@ extends layout
 
 block content
   h1= title
-  p Welcome to #{title}
+  div.container
+    div.createCard
+      h2 Create card
+        div#create
+          p Title:  
+            input(type='text', name='title', size='40')
+          p Description:  
+          p
+            textarea(name='text', cols='35' rows='10')
+          div
+            span Rating: 
+            span
+              select(name='rating')
+                option(value=1) 1
+                option(value=2) 2
+                option(value=3) 3
+                option(value=5) 5
+                option(value=8) 8
+          p Responsible:  
+            input(type='text', name='title', size='30')
+          button#submit Save
+
+    div.scrumboard
+      table.table
+        thead
+          tr
+            th#todo Todo
+            th In progress
+            th Done
+        tbody
+          tr         
+            td#todo
+              ul
+                li('draggable=true')
+            td#inProgress
+            td#done
+  footer

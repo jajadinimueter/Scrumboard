@@ -6,3 +6,55 @@ body {
 a {
   color: #00B7FF;
 }
+
+.container {
+}
+
+.createCard {
+  display: block;
+  float: left;
+}
+
+.scrumboard {
+  width: 70%;
+  float: right;
+}
+
+#create {
+  padding-top: 10px;
+  font-size: 14px;
+}
+
+#submit {
+  margin-top: 10px;
+  float: right;
+}
+
+.table {
+  border: 1px solid;
+  border-collapse: collapse;
+  width: 100%;
+  float: right;
+}
+
+th, td {
+  border: 1px solid;
+}
+
+th {
+  font-size: 150%;
+}
+
+td {
+  width: 33.3%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+}
+
+.card {
+}
