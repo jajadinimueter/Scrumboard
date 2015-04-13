@@ -28,8 +28,8 @@ node_modules
 .lock-wscript
 
 # Mac OS X
-#.DS_Store
+*.DS_Store
 
 # Sublime Text 2
-.sublime-project
-.sublime-workspace
+*.sublime-project
+*.sublime-workspace

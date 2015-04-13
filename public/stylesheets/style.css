@@ -8,6 +8,7 @@ a {
 }
 
 .container {
+  /*border: 1px dotted; */
 }
 
 .createCard {
@@ -15,7 +16,7 @@ a {
   float: left;
 }
 
-.scrumboard {
+#scrumboard {
   width: 70%;
   float: right;
 }
@@ -34,6 +35,7 @@ a {
   border: 1px solid;
   border-collapse: collapse;
   width: 100%;
+  height: 500px;
   float: right;
 }
 
@@ -49,12 +51,38 @@ td {
   width: 33.3%;
 }
 
-ul {
-  list-style: none;
+.taskCard {
+  margin: 10px;
+  padding: 10px;
+  border: 1px dotted;
+  float: middle;
 }
 
-li {
+#task_head {
+  margin-bottom: 10px;
 }
 
-.card {
+#task_title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#task_rating {
+  float: right;
+}
+
+#task_description {
+  margin-bottom: 10px;
+}
+
+#task_responsible {
+  margin-bottom: 5px;
+}
+
+#task_edit {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  position: absolute;
+  bottom: 0px;
+  right: 20px;
 }

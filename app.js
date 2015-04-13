@@ -9,9 +9,12 @@ var uuid = require('node-uuid');
 var WebSocketServer = require('ws').Server;
 
 var routes = require('./routes/index');
+var tasks = require('./routes/tasks_routes');
 var users = require('./routes/users');
 
 var app = express();
+
+var server = app.listen(3000);
 
 
 // view engine setup
@@ -27,6 +30,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
+app.use('/tasks', tasks);
 app.use('/users', users);
 
 // catch 404 and forward to error handler
@@ -58,6 +62,33 @@ app.use(function(err, req, res, next) {
     message: err.message,
     error: {}
   });
+});
+
+// WS Server
+var wss = new WebSocketServer({server: server});
+console.log('websocket server created');
+
+var clients = {};
+wss.on('connection', function(ws) {
+    var userID = uuid.v1();
+    clients[userID] = ws;
+
+    console.log('client :' + userID + ' connected');
+
+
+    ws.on('message', function(message) {
+        message = JSON.parse(message);
+        console.log('received from ' + userID + ':' + message.title + " - " + message.description);
+        for (id in clients ) {
+            clients[id].send(JSON.stringify(message));
+        }
+
+    });
+
+    ws.on('close', function() {
+        console.log('client :' + userID + ' closed connection');
+        delete clients[userID];
+    });
 });
 
 module.exports = app;
