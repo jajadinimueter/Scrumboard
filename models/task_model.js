@@ -9,6 +9,14 @@ var Scrumboard = {
       rating: '2',
       responsible: 'Andrew',
 		  column: 'todo'
+    },
+    {
+      id: '1',
+      title: 'Test entry 2',
+      description: 'This is a test description.',
+      rating: '2',
+      responsible: 'Andrew',
+      column: 'todo'
     }
   ],
   last_id: 0,

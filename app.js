@@ -6,7 +6,6 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var uuid = require('node-uuid');
-var WebSocketServer = require('ws').Server;
 
 var routes = require('./routes/index');
 var tasks = require('./routes/tasks_routes');
@@ -45,6 +44,7 @@ app.use(function(req, res, next) {
 // development error handler
 // will print stacktrace
 if (app.get('env') === 'development') {
+  app.locals.pretty = true;
   app.use(function(err, req, res, next) {
     res.status(err.status || 500);
     res.render('error', {
@@ -62,33 +62,6 @@ app.use(function(err, req, res, next) {
     message: err.message,
     error: {}
   });
-});
-
-// WS Server
-var wss = new WebSocketServer({server: server});
-console.log('websocket server created');
-
-var clients = {};
-wss.on('connection', function(ws) {
-    var userID = uuid.v1();
-    clients[userID] = ws;
-
-    console.log('client :' + userID + ' connected');
-
-
-    ws.on('message', function(message) {
-        message = JSON.parse(message);
-        console.log('received from ' + userID + ':' + message.title + " - " + message.description);
-        for (id in clients ) {
-            clients[id].send(JSON.stringify(message));
-        }
-
-    });
-
-    ws.on('close', function() {
-        console.log('client :' + userID + ' closed connection');
-        delete clients[userID];
-    });
 });
 
 module.exports = app;

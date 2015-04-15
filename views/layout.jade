@@ -8,7 +8,7 @@ html
 
  
   script(type='text/template')#task-template
-    div.taskCard
+    div.taskCard.task
       div#task_head
         span#task_title <%= title %>
         span#task_rating Est: <%= rating %>
@@ -16,15 +16,14 @@ html
       div#task_responsible Responsible: <%= responsible %>
       div#task_edit
         span#link_edit
-          a(href='#', id='edit', class='edit')
+          a(href='#', class='edit')
             img(src="images/edit.png", width="16")
           |      
         span#link_delete
-          a(href='#', id='delete' class='delete')
+          a(href='#', class='delete')
             img(src="images/delete.png", width="16")
 
 
-  // script(type='text/javascript', src='/javascripts/lib/jquery.js')
   script(type='text/javascript', src='/javascripts/lib/jquery-2.1.3.js')
   script(type='text/javascript', src='/javascripts/lib/jquery-ui-1.11.4.min.js')
   script(type='text/javascript', src='/javascripts/lib/underscore.js')

@@ -5,7 +5,7 @@ const
 
 
 router.param('task_id', function(req, res, next, id) {
-    req.card_item = task.find(id);
+    req.task_item = task.find(id);
     next();
 });
 
@@ -18,9 +18,13 @@ router.route('/').
     }).
     
     post(function(req, res, next) {
-       task.create( req.body );
+       task.create(req.body);     // + callback
        res.setHeader('Content-Type', 'application/json');
        res.end(JSON.stringify(req.task_item));
+    }).
+
+    put(function(req, res, next) {
+      task.save(req.body);
     });
 
 module.exports = router;

@@ -36,6 +36,7 @@ a {
   border-collapse: collapse;
   width: 100%;
   height: 500px;
+  vertical-align: top;
   float: right;
 }
 
@@ -49,6 +50,10 @@ th {
 
 td {
   width: 33.3%;
+}
+
+td#todo #inProgress #done {
+  vertical-align: top;
 }
 
 .taskCard {

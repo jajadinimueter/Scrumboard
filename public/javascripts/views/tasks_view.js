@@ -4,10 +4,20 @@ app.TasksView = Backbone.View.extend({
 
   views: [],
 
+  el: $("#scrumboard"),
+
   render: function() {
 
     $("#scrumboard tbody tr td").droppable({      
-      drop: taskDrop
+      drop: function(event, ui) {
+   
+      var taskColumn = $(event.target).attr('id');       
+      var cardId = $(ui.draggable).attr("id");
+      var task = app.tasks.where({id: cardId})[0];
+      task.column = taskColumn.toString();
+      task.save();
+      //task.save(task.attributes);
+     }
     });
   },
 
@@ -26,19 +36,27 @@ app.TasksView = Backbone.View.extend({
 
   initialize: function() {
 
-    $("#scrumboard").show();
-    //console.log(this.collection);
-    this.collection.fetch({ reset: true });
-    this.listenTo(this.collection, 'reset', this.addAll);
+    this.listenTo(app.tasks, 'add', this.addOne);
+    this.listenTo(app.tasks, 'reset', this.addAll);
+    this.listenTo(app.tasks, 'all', this.render);
+
+    //$("#scrumboard").show();
+    app.tasks.fetch({ reset: true });
+  },
+
+  addOne: function(task) {
+    var view = new TasksView({model: task});
+    this.$("#todo").append(view.render().el);
   },
 
   addAll: function() {
 
+    // app.tasks.each(this.addOne, this);
     for(var i = 0; i < this.views.length; i++) {
       this.views[i].delete();
     }
   
-    this.collection.each(this.addTaskView, this); 
+    app.tasks.each(this.addTaskView, this); 
   }
 
 });
@@ -47,23 +65,29 @@ app.TasksView = Backbone.View.extend({
 app.TaskView = Backbone.View.extend({
 
   events: {
-    "click #delete": "delete"
+    "click .edit": "edit",
+    "click .delete": "delete"
   },
 
   template: _.template($('#task-template').html()),
 
   initialize: function() {
+    this.listenTo(this.model, 'change', this.render);
+    this.listenTo(this.model, 'destroy', this.remove);
     this.render();
   },
 
   render: function() {
-    template = _.template($('#task-template').html());
-    //this.$el.html(template, this.model.toJSON());   // principally correct (not working)
-    //this.$el.html(this.template, JSON.stringify(this.model));
-    this.$el.html(this.template(this.model));
-    this.$el.addClass("task");
-
+  
+    this.$el.html(this.template(this.model.attributes));
+    this.input = this.$('.edit');
+    
     return this;
+  },
+
+  edit: function() {
+    this.$el.addClass("editing");
+    this.input.focus();
   },
 
   delete: function() {
