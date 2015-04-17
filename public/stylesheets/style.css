@@ -50,6 +50,7 @@ th {
 
 td {
   width: 33.3%;
+  vertical-align: top;
 }
 
 td#todo #inProgress #done {
@@ -63,31 +64,62 @@ td#todo #inProgress #done {
   float: middle;
 }
 
-#task_head {
+.task_head {
   margin-bottom: 10px;
 }
 
-#task_title {
+.task_title {
   font-weight: bold;
   margin-bottom: 10px;
 }
 
-#task_rating {
+.task_rating {
   float: right;
 }
 
-#task_description {
+.task_description {
   margin-bottom: 10px;
 }
 
-#task_responsible {
+.task_responsible {
   margin-bottom: 5px;
 }
 
-#task_edit {
+.task_edit {
   margin-top: 10px;
   margin-bottom: 5px;
   position: absolute;
   bottom: 0px;
   right: 20px;
+}
+
+.edit, .save {
+  width: 20px;
+  display: block;
+  position: relative;
+  top: -5px;
+  right: 0px;
+  padding: 4px 10px;
+  border-top-right-radius: 2px;
+  border-bottom-left-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: -1px 1px 4px rgba(0,0,0,0.5);
+}
+
+.edit { 
+  background: #557a11;
+  color: #f0f0f0;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
+
+.save {
+  display: none;
+  background: #bd0f18;
+  color: #f0f0f0;
+}
+
+.taskCard:hover .edit {
+  opacity: 1;
 }

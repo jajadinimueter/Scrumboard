@@ -1,22 +1,22 @@
-// Scrum board model
+// Scrum board task model
 
 
 var app = app || {};
 
 app.Task = Backbone.Model.extend({
 
-  tasks: [],
+  //tasks: [],
 
   urlRoot: "/",
   id: "id",
 
   defaults: {
-      id: '',
-      title: '',
-      description: '',
-      rating: '',
-      responsible: '',
-			column: 'todo'
+    id: '',
+    title: '',
+    description: '',
+    rating: '',
+    responsible: '',
+		column: 'todo'
   },
 
 });

@@ -2,7 +2,7 @@ var app = app || {};
 
 app.Tasks = Backbone.Collection.extend({
   model: app.Task,
-  last_id: 0,
+  last_id: 1,
   url: '/tasks',
 
   getNextId: function() {
@@ -13,8 +13,11 @@ app.Tasks = Backbone.Collection.extend({
   createAndAddNewTask: function(data) {
   	data.id = this.getNextId();
     var task = new app.Task(data);
+    //console.log(task.attributes);
     app.tasks.add(task);
+    //console.log(app.tasks);
     task.save();
+    //task.set(task.attributes);
   }
 
 });

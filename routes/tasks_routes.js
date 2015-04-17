@@ -24,7 +24,9 @@ router.route('/').
     }).
 
     put(function(req, res, next) {
-      task.save(req.body);
+      task.update(req.params.task_id,req.body);
+      res.setHeader('Content-Type', 'application/json');
+      res.end(JSON.stringify(req.task_item));
     });
 
 module.exports = router;

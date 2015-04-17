@@ -8,20 +8,19 @@ html
 
  
   script(type='text/template')#task-template
-    div.taskCard.task
-      div#task_head
-        span#task_title <%= title %>
-        span#task_rating Est: <%= rating %>
-      div#task_description <%= description %>
-      div#task_responsible Responsible: <%= responsible %>
-      div#task_edit
-        span#link_edit
-          a(href='#', class='edit')
-            img(src="images/edit.png", width="16")
-          |      
-        span#link_delete
-          a(href='#', class='delete')
-            img(src="images/delete.png", width="16")
+    div(class='taskCard', class='task')
+      .task_head
+        span.task_title <%= title %>
+        span.task_rating Est: <%= rating %>
+      .task_description <%= description %>
+      .task_responsible Responsible: <%= responsible %>
+      .task_edit
+        span.edit Edit
+        span.save Save
+          //|     
+        //span#link_delete
+          //a(href='#', class='delete')
+            //img(src="images/delete.png", width="16")
 
 
   script(type='text/javascript', src='/javascripts/lib/jquery-2.1.3.js')

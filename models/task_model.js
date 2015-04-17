@@ -19,20 +19,20 @@ var Scrumboard = {
       column: 'todo'
     }
   ],
-  last_id: 0,
+  last_id: 1,
 
-  getNextId: function () {
+  getNextId: function() {
     this.last_id += 1;
     return this.last_id;
   },
 
-  clone: function (data) {
+  clone: function(data) {
     // JavaScript doesn't have a real clone function
     // This is good enough for simple, data-only objects
     return JSON.parse(JSON.stringify(data));
   },
 
-  add: function (data) {
+  add: function(data) {
     var data = this.clone(data);
     var id = this.getNextId();
     data.id = id.toString();
@@ -42,7 +42,7 @@ var Scrumboard = {
   },
 
 
-  find: function (id) {
+  find: function(id) {
       for (var i = 0; i < this.posts.length; i++) {
           if (this.posts[i].id == id) {
               return this.posts[i];
@@ -51,7 +51,7 @@ var Scrumboard = {
       return void 0;
   },
 
-  remove: function (id) {
+  remove: function(id) {
     for (var i = 0; i < this.tasks.length; i++) {
       if (this.tasks[i].id == id) {
         var p = this.tasks[i];
@@ -63,37 +63,47 @@ var Scrumboard = {
     return void 0;
   },
 
-  allTasks: function () {
+  allTasks: function() {
     return this.tasks;
   },  
   
-  clearAllEntries: function () {
+  clearAllEntries: function() {
     this.tasks = [];
     this.last_id = 0;
-  }
+  },
+
+  update: function(id,data) {
+    for (var attr in data) {
+      //console.log('updating card id ' + id + " will set " + attr + " = " + data[attr]);
+      this.tasks[id][attr] = data[attr];
+    }
+    return this.tasks[id];    
+    }
 };
 
 
 exports.Tasks = Scrumboard;
 
-exports.getAllEntries = function () {
+exports.getAllEntries = function() {
   return Scrumboard.allTasks();
 };
 
-exports.clearAllEntries = function () {
+exports.clearAllEntries = function() {
   return Scrumboard.clearAllEntries();
 };
 
-exports.create = function (data) {
+exports.create = function(data) {
   return Scrumboard.add(data);
 };
 
+exports.update = function(id,data){
+  return Scrumboard.update(id,data);
+};
 
-exports.find = function (id) {
+exports.find = function(id) {
   return Scrumboard.find(id);
 };
 
-
-exports.remove = function (id) {
+exports.remove = function(id) {
   return Scrumboard.remove(id);
 }
