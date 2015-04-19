@@ -65,19 +65,19 @@ var Scrumboard = {
 
   allTasks: function() {
     return this.tasks;
-  },  
-  
+  },
+
   clearAllEntries: function() {
     this.tasks = [];
     this.last_id = 0;
   },
 
-  update: function(id,data) {
+  update: function(id, data) {
     for (var attr in data) {
       //console.log('updating card id ' + id + " will set " + attr + " = " + data[attr]);
       this.tasks[id][attr] = data[attr];
     }
-    return this.tasks[id];    
+    return this.tasks[id];
     }
 };
 
